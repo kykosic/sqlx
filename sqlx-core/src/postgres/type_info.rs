@@ -327,6 +327,7 @@ impl PgType {
             3913 => PgType::DateRangeArray,
             3926 => PgType::Int8Range,
             3927 => PgType::Int8RangeArray,
+            4000 => PgType::Json,
             4072 => PgType::Jsonpath,
             4073 => PgType::JsonpathArray,
 
